@@ -22,7 +22,7 @@ client.api_base_url = 'http://localhost:5000/mt-data-api.cgi'
 client.endpoint_version = 'v2'
 
 username = 'admin'
-password = 'password
+password = 'password'
 client.authentication(username, password, remember=False,
                       success=success, failure=failure)
 

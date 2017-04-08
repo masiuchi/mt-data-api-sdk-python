@@ -5,7 +5,7 @@ from setuptools import setup
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(BASE_PATH, 'README.md')).read()
 
-setup(name='mt-data-api-sdk-python',
+setup(name='mt-data-api',
       packages=find_packages(),
       version='0.0.1',
       description='A port of mt-data-api-sdk-swift.',

@@ -2,12 +2,11 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-BASE_PATH = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(BASE_PATH, 'README.md')).read()
+README = open('README').read()
 
 setup(name='mt-data-api',
       packages=find_packages(),
-      version='0.0.1',
+      version='0.0.3',
       description='A port of mt-data-api-sdk-swift.',
       long_description=README,
       author='Masahiro IUCHI',

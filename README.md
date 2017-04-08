@@ -1,6 +1,12 @@
 # mt-data-api-sdk-python
 A port of [mt-data-api-sdk-swift](https://github.com/movabletype/mt-data-api-sdk-swift).
 
+# Install
+
+```bash
+$ pip install mt-data-api
+```
+
 # Usage
 ```python
 

@@ -40,7 +40,7 @@ entry = {'title': 'test entry'}
 client.create_entry(site_id, entry, success=success, failure=failure)
 ```
 
-# Copyright
+# License & Copyright
 ```
 The MIT License (MIT)
 

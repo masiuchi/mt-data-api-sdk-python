@@ -5,7 +5,7 @@ README = open('README').read()
 
 setup(name='mt-data-api',
       packages=find_packages(),
-      version='0.0.3',
+      version='0.0.4',
       description='A port of mt-data-api-sdk-swift.',
       long_description=README,
       author='Masahiro IUCHI',
